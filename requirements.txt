@@ -13,7 +13,6 @@ python-dotenv
 # Presentation & Visualization
 flask
 dash
-d3py
 
 # Utils & Development
 pytest
