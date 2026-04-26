@@ -1,13 +1,4 @@
 [tool.ruff]
-# Enable the pycodestyle (E) and Pyflakes (F) rules by default.
-# Unlike Flake8, Ruff doesn't enable all rules by default.
-select = ["E", "F", "I", "B", "C4", "UP"]
-ignore = []
-
-# Allow fix for all enabled rules (when `--fix`) is provided.
-fixable = ["ALL"]
-unfixable = []
-
 # Exclude a variety of commonly ignored directories.
 exclude = [
     ".bzr",
@@ -41,6 +32,14 @@ indent-width = 4
 target-version = "py311"
 
 [tool.ruff.lint]
+# Enable the pycodestyle (E) and Pyflakes (F) rules by default.
+select = ["E", "F", "I", "B", "C4", "UP"]
+ignore = []
+
+# Allow fix for all enabled rules (when `--fix`) is provided.
+fixable = ["ALL"]
+unfixable = []
+
 # Enable preview features
 preview = true
 

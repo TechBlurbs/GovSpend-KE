@@ -17,3 +17,4 @@ dash
 # Utils & Development
 pytest
 ruff
+pre-commit
