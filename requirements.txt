@@ -17,5 +17,4 @@ d3py
 
 # Utils & Development
 pytest
-black
-flake8
+ruff
