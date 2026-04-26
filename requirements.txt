@@ -1,0 +1,21 @@
+# Data Ingestion & Extraction
+requests
+beautifulsoup4
+pdfplumber
+pytesseract
+pandas
+
+# Storage
+sqlalchemy
+psycopg2-binary
+python-dotenv
+
+# Presentation & Visualization
+flask
+dash
+d3py
+
+# Utils & Development
+pytest
+black
+flake8
